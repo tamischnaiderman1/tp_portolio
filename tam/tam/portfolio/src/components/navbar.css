@@ -1,0 +1,55 @@
+nav {
+  background-color: #aa9371;
+  padding: 10px;
+  text-align: right;
+}
+
+.titulo{
+  font-size: large;
+  font-weight: bold;
+  margin-right: auto;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #755b43; /* Cambia de color al pasar el ratón sobre el enlace */
+}
+
+/* Estilos para el contenido dentro del layout */
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  font-size: 16px;
+}
